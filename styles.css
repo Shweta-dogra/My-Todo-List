@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+header{
+    width: 50vw;
+    padding: 5px;
+    background: linear-gradient(rgba(136, 232, 200, 0.384), rgba(172, 16, 166, 0.5));
+}
+.todo{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 50vw;
+} 
+form{
+    display: flex;
+    justify-content: space-between;
+}
+.bi-plus-circle-fill{
+    color: rgb(238, 239, 171);
+    
+}
+input, button{
+    background: none;
+    border-style: none;
+    height: 5vh;
+}
+input{
+    width: 40vw;
+}
+.bi-pencil-square{
+    color: green;
+}
+.bi-trash{
+    color: red;
+}
