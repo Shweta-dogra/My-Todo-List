@@ -24,6 +24,7 @@ form{
 }
 .bi-plus-circle-fill{
     color: rgb(238, 239, 171);
+    margin-right: 0.5rem;
     
 }
 input, button{
@@ -33,10 +34,14 @@ input, button{
 }
 input{
     width: 40vw;
+    margin-right: 0.5rem;
 }
 .bi-pencil-square{
     color: green;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 .bi-trash{
     color: red;
+    margin-right: 0.5rem;
 }
